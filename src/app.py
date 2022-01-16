@@ -28,3 +28,9 @@ def file_exists(file) :
         return 'true'
     else :
         return 'false'
+def unlink(file) : 
+    if Path(file).is_file():
+        Path(file).unlink()
+        return 'true'
+    else :
+        return 'false'
