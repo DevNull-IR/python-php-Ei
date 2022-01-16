@@ -1,4 +1,6 @@
-# soon Code's
+# Version : 1.0
+# Coded by https://github.com/DevNull-IR
+
 import requests
 from pathlib import Path
 
