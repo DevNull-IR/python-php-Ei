@@ -10,4 +10,4 @@ create app.py
 
 vresion 1.1 :
 
-Security increased: |
+Security increased :|
