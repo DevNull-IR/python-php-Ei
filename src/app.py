@@ -1,4 +1,4 @@
-# Version : 1.0
+# Version : 1.1
 # Coded by https://github.com/DevNull-IR
 
 import requests
