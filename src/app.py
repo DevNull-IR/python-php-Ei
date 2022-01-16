@@ -16,4 +16,7 @@ def file_put_contents(FileName,Value = None) :
         f.write(Value)
         f.close()
     
+def substr(str,offset,end = None) :
+    return str[offset:end]
+
 file_put_contents('test.py','sdsd')
