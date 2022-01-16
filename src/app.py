@@ -3,6 +3,7 @@
 
 import requests
 from pathlib import Path
+import socket
 
 def echo(value) : 
     print(value)
@@ -10,7 +11,7 @@ def echo(value) :
 def print_r(**value) :
     print(value)
 
-def file_put_contents(FileName,Value = None) : 
+def file_put_contents(FileName:str,Value:str = None) : 
     if (Value == None):
         open(FileName, "w")
     
@@ -25,14 +26,16 @@ def substr(str,offset,end = None) :
 def strlen(value = None) :
     return len(value)
 
-def file_exists(file) : 
+def file_exists(file:str) : 
     if Path(file).is_file():
         return 'true'
     else :
         return 'false'
-def unlink(file) : 
+def unlink(file:str) : 
     if Path(file).is_file():
         Path(file).unlink()
         return 'true'
     else :
         return 'false'
+def gethostbyname(url:str):
+    return socket.gethostbyname(url)
