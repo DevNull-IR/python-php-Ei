@@ -19,4 +19,5 @@ def file_put_contents(FileName,Value = None) :
 def substr(str,offset,end = None) :
     return str[offset:end]
 
-file_put_contents('test.py','sdsd')
+def strlen(value = None) :
+    return len(value)
