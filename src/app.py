@@ -1,5 +1,6 @@
 # soon Code's
 import requests
+from pathlib import Path
 
 def echo(value) : 
     print(value)
@@ -21,3 +22,9 @@ def substr(str,offset,end = None) :
 
 def strlen(value = None) :
     return len(value)
+
+def file_exists(file) : 
+    if Path(file).is_file():
+        return 'true'
+    else :
+        return 'false'
