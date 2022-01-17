@@ -31,11 +31,28 @@ def file_exists(file:str) :
         return 'true'
     else :
         return 'false'
+
 def unlink(file:str) : 
     if Path(file).is_file():
         Path(file).unlink()
         return 'true'
     else :
         return 'false'
+
 def gethostbyname(url:str):
     return socket.gethostbyname(url)
+
+def gethostbynamel(url:str):
+    return socket.gethostbyname_ex(url)
+
+def gethostname(url:str):
+    return socket.gethostname(url)
+
+def gethostbyaddr(url:str):
+    return socket.gethostbyaddr(url)
+
+def getprotobyname(url:str):
+    return socket.getprotobyname(url)
+
+def getservbyport(num:int,url:str):
+    return socket.getservbyport(num,url)
