@@ -1,7 +1,6 @@
 # python php Ei
 Code in Python but with PHP syntax
 
-
 # version
 
 version 1 :
