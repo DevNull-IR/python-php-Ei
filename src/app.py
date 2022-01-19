@@ -41,6 +41,18 @@ def unlink(file:str) :
     else :
         return 'false'
 
+def readfile(n:str):
+    return open(n,"r").read()
+
+def fopen(filename:str,mode:str):
+    return open(filename,mode)
+
+def fwrite(m,txt:str):
+    m.write(txt)
+
+def fclose(m):
+    m.close()
+    
 def gethostbyname(url:str):
     return socket.gethostbyname(url)
 
