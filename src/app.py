@@ -5,7 +5,7 @@
 import requests
 from pathlib import Path
 import socket
-
+import json
 
 def echo(value) : 
     print(value)
@@ -59,6 +59,8 @@ def json_encode(data,flag=None):
     else:
         return json.dumps(data)
 
+def json_decode(data):
+    return json.loads(data)
 
 def gethostbyname(url:str):
     return socket.gethostbyname(url)
