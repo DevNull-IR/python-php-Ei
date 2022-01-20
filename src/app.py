@@ -53,6 +53,13 @@ def fwrite(m,txt:str):
 def fclose(m):
     m.close()
     
+def json_encode(data,flag=None):
+    if flag==448:
+        return json.dumps(data,indent=4)
+    else:
+        return json.dumps(data)
+
+
 def gethostbyname(url:str):
     return socket.gethostbyname(url)
 
