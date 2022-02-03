@@ -1,4 +1,4 @@
-text = "Hello this text Test."
+text = "Hello This Text Test."
 if text:
   echo (text)
 else:
