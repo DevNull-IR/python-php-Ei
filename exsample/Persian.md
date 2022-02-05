@@ -52,3 +52,9 @@ print_r({1,2,3})
 
 در php :
 
+
+
+```php 
+
+file_put_contents('file.nm',null,8);
+```
