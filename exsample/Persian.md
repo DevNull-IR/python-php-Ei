@@ -38,3 +38,10 @@ echo(substr('This Text Test in Substr function',0,5))
 
 print_r(['one'=>'tow']);
 ```
+
+
+
+در پایتون :
+```python 
+print_r({1,2,3})
+```
