@@ -21,5 +21,5 @@ echo 'محتوی تست';
 # تابه substr در php :
 
 ```php 
-echo substr('T');
+echo substr('This Text');
 ```
