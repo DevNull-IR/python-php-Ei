@@ -21,5 +21,12 @@ echo 'محتوی تست';
 # تابه substr در php :
 
 ```php 
-echo substr('This Text Test');
+echo substr('This Text Test in Substr function',0,5);
+```
+
+
+و در فانکشن های ما در پایتون :
+
+```python 
+echo(substr('This Text Test in Substr function',0,5))
 ```
