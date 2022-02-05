@@ -58,3 +58,10 @@ print_r({1,2,3})
 
 file_put_contents('file.nm',null,8);
 ```
+
+
+در پایتون : 
+```python 
+
+file_put_contents('file.nm',None,8)
+```
