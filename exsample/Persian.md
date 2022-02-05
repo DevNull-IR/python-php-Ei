@@ -17,3 +17,9 @@ echo ('محتوی تست');
 ```php
 echo 'محتوی تست';
 ```
+
+# تابه substr در php :
+
+```php 
+echo substr('T');
+```
