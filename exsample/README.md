@@ -29,3 +29,8 @@ this function in python (python-php-Ei)
 ```python 
 echo(substr('This Text Test in Substr function',0,5))
 ```
+
+
+
+
+[نسخه فارسی](https://github.com/DevNull-IR/python-php-Ei/blob/main/exsample/Persian.md)
