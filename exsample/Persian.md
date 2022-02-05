@@ -30,3 +30,11 @@ echo substr('This Text Test in Substr function',0,5);
 ```python 
 echo(substr('This Text Test in Substr function',0,5))
 ```
+
+
+# تابع Print_r در php :
+
+```php
+
+print_r(['one'=>'tow']);
+```
