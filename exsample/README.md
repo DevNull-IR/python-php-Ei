@@ -42,4 +42,6 @@ python :
 print_r({1,2,3})
 ```
 
+# strlen Function
+
 [نسخه فارسی](https://github.com/DevNull-IR/python-php-Ei/blob/main/exsample/Persian.md)
