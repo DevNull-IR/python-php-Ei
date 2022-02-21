@@ -44,4 +44,14 @@ print_r({1,2,3})
 
 # strlen Function
 
+```php
+echo strlen('Test');
+```
+
+
+python
+```python
+echo(strlen('Test));
+```
+
 [نسخه فارسی](https://github.com/DevNull-IR/python-php-Ei/blob/main/exsample/Persian.md)
