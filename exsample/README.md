@@ -73,7 +73,7 @@ file_put_contents('test.txt','MText')
 appended in python
 
 ```
-file_put_contents('test.txt','MText',)
+file_put_contents('test.txt','MText',8)
 ```
 
 
