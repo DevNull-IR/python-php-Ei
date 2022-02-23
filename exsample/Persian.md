@@ -80,4 +80,4 @@ echo strlen("Test");
 echo( strlen("Test"))
 ```
 
-[](url)
+[](https://github.com/DevNull-IR/python-php-Ei/blob/main/exsample/Persian.md)
