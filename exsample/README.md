@@ -83,4 +83,8 @@ unlink('name file');
 ```
 in python :
 
+```python
+unlink('name file')
+```
+
 [نسخه فارسی](https://github.com/DevNull-IR/python-php-Ei/blob/main/exsample/Persian.md)
