@@ -79,8 +79,8 @@ file_put_contents('test.txt','MText',8)
 # Deleted File 
 in php
 ```php
-
-
-
+unlink('name file');
+```
+in python :
 
 [نسخه فارسی](https://github.com/DevNull-IR/python-php-Ei/blob/main/exsample/Persian.md)
