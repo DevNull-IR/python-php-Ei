@@ -88,7 +88,7 @@ file_put_contents('Test.txt','متن من');
 ```
 اضافه کردن به آخر فایل :
 ```php
-file_put_contents('Test.txt','متن دوم',8);
+file_put_contents('Test.txt','M TEXT',8);
 ```
 
 
