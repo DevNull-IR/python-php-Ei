@@ -91,5 +91,14 @@ file_put_contents('Test.txt','متن من');
 file_put_contents('Test.txt','M TEXT',8);
 ```
 
+**در پایتون**
+
+```php
+file_put_contents('Test.txt','متن من')
+```
+اضافه کردن به آخر فایل :
+```php
+file_put_contents('Test.txt','M TEXT',8)
+```
 
 [English Document](https://github.com/DevNull-IR/python-php-Ei/blob/main/exsample/README.md)
