@@ -101,4 +101,16 @@ file_put_contents('Test.txt','متن من')
 file_put_contents('Test.txt','M TEXT',8)
 ```
 
+# حذف فایل : 
+در php
+```php
+unlink('file name');
+```
+در پایتون :
+
+```python 
+unlink('file name')
+```
+**خروجی به صورت متنی است یا true یا false**
+
 [English Document](https://github.com/DevNull-IR/python-php-Ei/blob/main/exsample/README.md)
