@@ -80,4 +80,6 @@ echo strlen("Test");
 echo( strlen("Test"))
 ```
 
+# ایجاد فایل جدید 
+
 [English Document](https://github.com/DevNull-IR/python-php-Ei/blob/main/exsample/README.md)
