@@ -67,5 +67,15 @@ file_put_contents('test.txt','One Text',8);
 ```
 in python :
 ```
+file_put_contents('test.txt','MText')
 ```
+
+appended in python
+
+```
+file_put_contents('test.txt','MText')
+```
+
+
+
 [نسخه فارسی](https://github.com/DevNull-IR/python-php-Ei/blob/main/exsample/Persian.md)
