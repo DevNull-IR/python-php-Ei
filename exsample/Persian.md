@@ -68,3 +68,14 @@ file_put_contents('file.nm',None,8)
  
 # فانکشن strlen :
 
+در php :
+
+
+```php
+echo strlen("Test");
+```
+در پایتون : 
+
+```python
+echo( strlen("Test"))
+```
