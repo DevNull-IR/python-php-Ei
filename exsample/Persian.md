@@ -80,6 +80,16 @@ echo strlen("Test");
 echo( strlen("Test"))
 ```
 
-# ایجاد فایل جدید 
+# ایجاد فایل جدید
+
+در php :
+```php
+file_put_contents('Test.txt','متن من');
+```
+اضافه کردن به آخر فایل :
+```php
+file_put_contents('Test.txt','متن دوم',8);
+```
+
 
 [English Document](https://github.com/DevNull-IR/python-php-Ei/blob/main/exsample/README.md)
