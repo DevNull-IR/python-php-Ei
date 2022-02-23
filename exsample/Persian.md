@@ -79,3 +79,5 @@ echo strlen("Test");
 ```python
 echo( strlen("Test"))
 ```
+
+[](url)
