@@ -57,5 +57,14 @@ echo(strlen('Test));
 # create New File 
 
 PHP
+```php
+file_put_contents('test.txt','MText');
+```
 
+append in php
+```php
+file_put_contents('test.txt','One Text',8);
+```
+in python :
+```
 [نسخه فارسی](https://github.com/DevNull-IR/python-php-Ei/blob/main/exsample/Persian.md)
